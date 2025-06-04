@@ -1,0 +1,21 @@
+{
+  "name": "viacep-mcpserver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "start:stdio": "node index.js stdio",
+    "start:http": "node index.js http",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["mcp", "viacep", "api"],
+  "author": "",
+  "license": "ISC",
+  "description": "MCP server that provides address information using the Viacep API",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "latest",
+    "express": "^4.18.2",
+    "zod": "^3.21.4"
+  }
+}
